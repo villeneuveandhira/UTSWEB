@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template: [header-start] "head head"80px [header-end] [main-start] "main side"1fr [main-end] [footer-start] "foot side"25px [footer-end];
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-container>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border: 5px lightslategray;
+    border-radius: 5px;
+    border-style: outset;
+}
+
+.gridheader {
+    background-color:#f14a60;
+    grid-area: head;
+    font-family: cursive;
+}
+
+.gridmain {
+    background-color: #fb7381;
+    grid-area: main;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gridside {
+    background-color: lightgray;
+    grid-area: side;
+    width: fit-content;
+}
+
+.gridfooter {
+    background-color: pink;
+    grid-area: foot;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.word td{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.word p {
+    color: black;
+}
+
+body {
+    background-color: lightgray;
+}

@@ -11,7 +11,7 @@
     <div class="card">
         <!-- Back -->
         <br>
-        <a href="http://localhost/uts-web/" class="back">Back to Home</a>
+        <a href="http://localhost/kuliah/designweb/uts-web/" class="back">Back to Home</a>
         <br><br><br>
 
         <!-- Form Data -->
